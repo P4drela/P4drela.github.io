@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Francisco Padrela</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Font awesome cdn  font icon css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav id="nav" class="nav-center">
+        <div class="togglebtn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="navlinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="https://www.linkedin.com/in/padrela/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Resume">Resume</a></li>
+            <li><a href="https://www.instagram.com/padrela/" target="_blank" rel="noopener noreferrer" aria-label="Contact via Instagram">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="hero-pic">
+            <img src="images/profile_pic.jpg"  alt="Profile picture of Francisco Padrela">
+        </div>
+    </div>
+
+    <div class="hero-header">
+        <div class="wrapper">
+            <header></header>
+            <div class="container">
+                <div class="hero-text">
+                    <div class="description">
+                        <h5>Hi I'm an aspiring <span class="outline-text">Fullstack Web Developer</span></h5>
+                        <h1>Francisco Padrela</h1>
+                        <p>Welcome to my portfolio, here you will have a glimpse of the work I have been developing through the years,
+                        feel free to contact me at any time!</p>
+                        <div class="contact">
+                            <a href="https://www.instagram.com/padrela/" target="_blank" rel="noopener noreferrer" class="link-text" aria-label="Contact via Instagram">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="skills" class="skills">
+        <h2>My Skills</h2>
+        <div class="skills-container">
+            <div class="skill">
+                <i class="fab fa-html5" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="html-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-css3-alt" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="css-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-js" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="js-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-bootstrap" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="bootstrap-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-node-js" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="node-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-react" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="react-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>
+            <div class="skill">
+                <i class="fab fa-php" aria-hidden="true"></i>
+                <div class="progress">
+                    <div id="php-progress" class="progress-bar" style="width: 0;"><span class="progress-text"></span></div>
+                </div>
+            </div>            
+        </div>
+    </section>
+    
+    <div id="portfolio" class="container2">
+        <section id="projects" class="projects">
+            <h2>My Projects 🧠</h2>
+            <div class="projects-container">
+                <a href="https://github.com/P4drela/projeto-node" target="_blank" rel="noopener noreferrer" class="card" aria-label="Node.js Simple Project on GitHub">
+                    <div class="card-content">
+                        <h3>Node.js Simple Project</h3>
+                        <hr>
+                        <p>This is a simple Node test project, made to test the simple deploy of a project using Node.js and a PostgreSQL DB.</p>
+                    </div>
+                </a>
+                <a href="#" class="card" aria-label="Movie Listing Website">
+                    <div class="card-content">
+                        <h3>Movie Listing Website</h3>
+                        <hr>
+                        <p>This project was made during University course, developed in PHP with a MySQL DB using MariaDB.</p>
+                    </div>
+                </a>
+                <a href="#" class="card" aria-label="Sustainable Tourism APP">
+                    <div class="card-content">
+                        <h3>Sustainable Tourism APP</h3>
+                        <hr>
+                        <p>This project is a prototype made during University course, developed in PHP with a MySQL DB using MariaDB.</p>
+                    </div>
+                </a>
+                <!-- Add more cards as needed -->
+            </div>
+        </section>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="row">
+                Francisco Padrela © 2024 - All rights reserved  
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
